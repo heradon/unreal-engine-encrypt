@@ -1,0 +1,11 @@
+--- UnrealPak.cpp	2016-06-20 01:48:14.988321359 +0200
++++ UnrealPak.cpp_new	2016-06-20 01:57:46.128325890 +0200
+@@ -492,7 +492,7 @@
+ 				}
+ 			}
+ 			Input.bNeedsCompression |= bCompress;
+-			Input.bNeedEncryption |= bEncrypt;
++			Input.bNeedEncryption |= true;
+ 
+ 			UE_LOG(LogPakFile, Log, TEXT("Added file Source: %s Dest: %s"), *Input.Source, *Input.Dest);
+ 			Entries.Add(Input);

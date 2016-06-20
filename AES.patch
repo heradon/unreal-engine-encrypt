@@ -1,0 +1,10 @@
+--- AES.h	2016-06-20 01:53:40.041657271 +0200
++++ AES.h_org	2016-06-20 01:53:28.234990511 +0200
+@@ -3,6 +3,7 @@
+ #pragma once
+ 
+ 
++#define AES_KEY "AKp0AF4mjsBuY6PSrfY0DEQExD146OO7E6HGmLKz93TePm9TQaaUlGvWDoIR"
+ #define AES_BLOCK_SIZE 16
+ 
+ 
