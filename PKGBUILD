@@ -1,11 +1,12 @@
-# Maintainer: Dylan Ferris <dylan@psilly.com>
+# Orginal Maintainer: Dylan Ferris <dylan@psilly.com>
+# Maintainer: Ralf Matthes <pkg@rmatthes.de>
 
 # You must register at unrealengine.com and link your github account to access this private repo.
 # @see https://wiki.archlinux.org/index.php/Unreal_Engine_4
 
 # The source is about 3.78 GiB, with an extra 3.24 GiB of dependencies downloaded in build(), and may take several hours to compile. (sizes as of 4.12)
 
-pkgname='unreal-engine'
+pkgname='unreal-engine-encrypt'
 pkgver=4.12.3
 pkgrel=1
 pkgdesc='A 3D game engine by Epic Games which can be used non-commercially for free.'
